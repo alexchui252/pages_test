@@ -14,3 +14,6 @@ ul{
   border-style: dashed;
   border-color: taupe;
 }
+span{
+  display: block;
+}
