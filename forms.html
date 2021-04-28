@@ -10,6 +10,27 @@
     <form>
       <label for="username">enter username:</label>
       <input type="text" id="username">
+
+      <p>Select why you're interested:</p>
+      <input type="radio" name="interest" value="bioinformatics" id="option-1">
+      <label for="option-1">bioinformatics</label>
+      <input type="radio" name="interest" value="RNA-seq" id="option-2">
+      <label for="option-2">RNA-seq</label>
+      <input type="radio" name="interest" value="webdev" id="option-3">
+      <label for="option-3">webdev</label>
+
+      <br><br>
+
+      <label for="question">security:</label>
+      <select name="question" id="question">
+        <option value="q1">what are your favorite fruits</option>
+        <option value="q2">be a vegetable</option>
+        <option value="q3">favorite comb</option>
+      </select>
+
+      <br><br>
+      <label for="answer">security answer</label>
+      <input type="text" id="answer" name="answer">
     </form>
   </body>
 </html>
