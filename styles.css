@@ -1,6 +1,16 @@
 h1 {
   color: purple;
+  text-align: center;
+  font-family: cursive;
+  letter-spacing: 3px;
 }
 p{
   color: green;
+  column-count: 3;
+  border-left: 1px solid indigo;
+}
+ul{
+  border-width: 4px;
+  border-style: dashed;
+  border-color: taupe;
 }
